@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Careers vs. Jobs
-date:   2017-05-22 17:18:21 +0000
+title:  "Careers vs. Jobs"
+date:   2017-05-22 13:18:21 -0400
 ---
 
 
-Those people who are privileged enough to have space in their lives to make employment choices seem to fall into two camps: those who chose careers that they love and those who get jobs. The former have a driving passion for something and make that passion the foundation of their life's work. The latter don't operate in that way, and pursue jobs that appeal to them and then eventually move on to a different job, often appealing in a different way. Neither of these groups is necessarily more satisfied with their work than the other, they just approach the process in different ways.
+Those people who are privileged enough to have space in their lives to make employment choices seem to fall into two camps: those who choose careers that they love and those who get jobs. The former have a driving passion for something and make that passion the foundation of their life's work. The latter don't operate in that way, and pursue jobs that appeal to them and then eventually move on to a different job, often appealing in a different way. Neither of these groups is necessarily more satisfied with their work than the other, they just approach the process in different ways.
 
 For a long time, I've felt like a member of the latter group. I've loved so many things, but have never loved one thing to the point of wanting it to be a career. In college when it came time to choose a major, I chose an interdisciplinary one, because it felt more comfortable to narrow the focus of my studies than to narrow the methodologies I used to do the work. When I began working I started in marketing for a startup and then eventually moved on to the editing side of academic publishing: lots of writing, followed by lots of reading.
 
