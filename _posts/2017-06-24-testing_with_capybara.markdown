@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Testing with Capybara"
+date:   2017-06-24 16:23:07 +0000
+---
+
+
+As we've gotten farther into our exploration of Sinatra, many of the tests have been written using [Capybara](https://github.com/teamcapybara/capybara). The Capybara gem allows us to formulate tests that mimic how a user interacts with the DOM. These are known as "integration tests." This adds a lot of functionality to our testing abilities because instead of just testing what is literally in the code, we can also test what the code actually creates. Capybara tests can mimic filling in forms, clicking buttons, navigating to pages, checking and unchecking buttons, and other user actions.
+
+As our labs have added this new testing functionality, we've learned how to read a new set of errors. Some of the errors are very straightforward---the error might tell you that it's looking for a certain phrase on the page and you realize that instead of writing `"Hello, World!"` you've written `"Hello world."` Ok, that's an easy fix, but other aspects of Capybara can be a little tricky because the tests are looking in very specific locations for very specific phrases. It can be frustrating to feel like the code you've written is doing everything it needs to do in terms of functionality but is still not passing the Capybara tests! Based on my recent experience, the most important thing to keep in mind is that even though the Capybara library seems to contain a lot of magic, the errors it throws state explicitly what the tests are looking for. If the test wants to `fill_in "Bramble Berry Shortcake"` it is looking for an input field with an id or name attribute equal to that. If it wants to `click_on "Put on Sunscreen"` then that string should be the value of your submit button. The specificity of these search strings makes Capybara seem a little finicky, but it also allows us to utilize similar id's or values and test for them independently. This expansion and specificity improves our test driven development!
