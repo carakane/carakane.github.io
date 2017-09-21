@@ -6,7 +6,7 @@ copyright_name: carakane
 description: > # this means to ignore newlines until "baseurl:"
   web << thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username:
 github_username:  carakane
 learn_profile: carakane
 email_username: cara.kane@gmail.com
@@ -16,6 +16,9 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
+
+paginate_path: "/blog/page:num/"
+
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
