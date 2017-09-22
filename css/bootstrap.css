@@ -6,11 +6,11 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /*//// CGK ADDITIONS ////*/
 
-.imgwrapper {
-   /*width: 80%;*/
-   /*background-size: cover;*/
+/*.imgwrapper {
+   width: 80%;
+   background-size: cover;
    background-size: contain;
-}
+}*/
 
 
 html {
