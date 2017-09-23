@@ -7,7 +7,7 @@
 /*//// CGK ADDITIONS ////*/
 
 .landing {
-   background: url("/img/plant.jpeg");
+   background-image: url("/img/plant.jpeg");
    background-size: cover;
    /*background-size: contain;*/
 }
