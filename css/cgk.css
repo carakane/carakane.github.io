@@ -1,5 +1,5 @@
 .landing {
    background-image: url("/img/plant.jpeg");
    background-size: cover;
-   /*background-size: contain;*/
+   background-color: #0085a1;
 }
