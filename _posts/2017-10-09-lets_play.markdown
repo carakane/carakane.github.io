@@ -1,0 +1,18 @@
+---
+layout: post
+title:      "Let's Play!"
+date:       2017-10-09 19:43:51 +0000
+permalink:  lets_play
+---
+
+
+For my final project, a single-page React/Redux/Rails web application, I made a trivia game. The Jeopardy fanbase maintains an archive of questions from the famous game show, and, luckily, there's an API for it! My project pulls data from the [jservice API](http://jservice.io/) (in the form of questions) and pushes data to my Rails API (in the form of persisted games), both via fetch. A user is able to play a ten-question game and then submit their initials to the record of High Scores. The app is styled with a combination of react-bootstrap and some additional CSS.
+
+Creating this application gave me a much better understanding of how React passes around props and state. The flow of data from parent to child is clearer to me now, after constructing all the components myself, and this has also made it clearer how data passed from child to parent must use functions.
+
+I found it interesting that the implementation of a React frontend with a Rails backend really was, at least in this project, very frontend heavy. My previous project, a Rails app with a jQuery frontend, seemed more evenly divided in its workload, probably because the Rails views were still in play. In this scenario, however, Rails exists only for database interaction, which is a very different dynamic.
+
+One of the things I enjoyed about this project was integrating packages. I implemented [Sweet Alert](https://sweetalert.js.org/) to allow the app to pop up a dialog box when a game is over and provide a prompt to take in the user's initials. I also implemented [Titleize](https://www.npmjs.com/package/titleize) (which does exactly what it sounds like).
+
+When I started this project it felt very overwhelming, partly because it was so open-ended. After choosing my overall plan for the app, it was helpful to sketch out what the database might look like and what the components might be. These things evolved, of course, as I worked on them, but conceptualizing the project this way and having a rough idea of the end goal was incredibly beneficial in getting the work going.
+
