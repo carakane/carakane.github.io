@@ -1,8 +1,38 @@
 .landing {
-   background-image: url("/img/plant.jpeg");
+   background-image: 
+    linear-gradient( 45deg, transparent 10%, rgba(128,0,128,.3) 100% ),
+    url("/img/plant.jpeg");
    background-size: cover;
-   background-color: #0085a1;
    width: 100%;
    height: 100vh;
-   /*object-position: 0% 0%;*/
+   font-size: 1em;
+}
+
+.half-size {
+    width: 350px;
+    margin: 0;
+    float: right;
+    position: relative;
+    top: 30%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.col-xs-12 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 2em;
+  color: #404040;
+  text-align: justified;
+  
+}
+
+.col-xs-6 {
+  width: 50%;
+  text-align: left;
+   font-family: 'Open Sans', sans-serif;
+  
+}
+
+.blue {
+    color: #0085a1;
 }
