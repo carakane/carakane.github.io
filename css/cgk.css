@@ -10,7 +10,7 @@
 
 .half-size {
     width: 350px;
-    margin: 0;
+    /* margin: 0; */
     float: right;
     position: relative;
     top: 30%;
@@ -35,4 +35,12 @@
 
 .blue {
     color: #0085a1;
+}
+
+@media only screen and (max-width: 495px) {
+
+   .half-size {
+    top: 20%;
+    left: 5%;
+    }
 }
