@@ -22,25 +22,62 @@
   font-family: 'Berkshire Swash', cursive;
   font-size: 2em;
   color: #404040;
-  text-align: justified;
+  text-align: center;
   
 }
 
 .col-xs-6 {
-  width: 50%;
-  text-align: left;
-   font-family: 'Open Sans', sans-serif;
-  
+    width: 50%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(128,0,128)
 }
 
-.blue {
-    color: #0085a1;
+.right {
+    text-align: right
+}
+
+.one {
+    text-align: right;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
 }
 
 @media only screen and (max-width: 495px) {
-
    .half-size {
     top: 20%;
     left: 5%;
     }
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(128,0,128);
+}
+
+/* visited link */
+a:visited {
+    color: rgba(128,0,128);
+    text-decoration: none;
+    
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(150, 1, 150);
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(150, 1, 150);
+}
+
+.col-xs-6 a:visited a:selected {
+    color: rgba(128,0,128);
+    text-decoration: none;
+}
+
+.col-xs-2 {
+    text-align: center;
 }
