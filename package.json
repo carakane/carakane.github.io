@@ -20,6 +20,12 @@
         "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
     },
     "dependencies": {
-        "lodash": "^4.17.11"
+        "cryptiles": "^4.1.2",
+        "debug": "^4.1.0",
+        "hawk": "^7.0.7",
+        "hoek": "^5.0.4",
+        "lodash": "^4.17.11",
+        "minimatch": "^3.0.4",
+        "node-mime": "^1.0.0"
     }
 }
