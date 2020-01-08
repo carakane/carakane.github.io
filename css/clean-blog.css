@@ -424,17 +424,3 @@ body {
     font-style: normal;
 
 }
-
-.learn-icon {
-  position: relative;
-  top: 5px;
-  display: inline-block;
-  font-family: 'glyphterregular';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  color:#fff;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
