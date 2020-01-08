@@ -30,7 +30,7 @@
     width: 50%;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(128,0,128)
+    color: #404040
 }
 
 .right {
@@ -52,12 +52,12 @@
 
 /* unvisited link */
 a:link {
-    color: rgba(128,0,128);
+    color: #404040;
 }
 
 /* visited link */
 a:visited {
-    color: rgba(128,0,128);
+    color: #404040;
     text-decoration: none;
     
 }
