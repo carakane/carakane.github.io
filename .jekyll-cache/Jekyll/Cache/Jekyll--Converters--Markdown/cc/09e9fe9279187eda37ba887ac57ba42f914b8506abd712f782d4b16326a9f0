@@ -1,0 +1,2 @@
+I"	<p>Templates are, at their core, exactly what they sound like: preset structures into which we can insert data. Lodash, a JavaScript library, allows us to create these templates. You can imagine that the Lodash template at its most basic allows you to interpolate data into a structure, and the first examples of templating in the <a href="https://lodash.com/docs/4.17.4#template">Lodash documentation</a> do just that. A more complex example is how to collect data from a form and then dynamically append that data.</p>
+:ET

@@ -1,12 +1,11 @@
 # Site settings
-title: Forward, Code!
+title: Cara Kane
 header-img: img/bluedoor.jpeg
 email: cara.kane@gmail.com
 copyright_name: carakane
 description: > # this means to ignore newlines until "baseurl:"
-  web << thoughts
+  Cara Kane, software developer
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username:
 github_username:  carakane
 learn_profile: carakane
 email_username: cara.kane@gmail.com
