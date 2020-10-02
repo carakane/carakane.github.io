@@ -4,7 +4,7 @@ header-img: img/bluedoor.jpeg
 email: cara.kane@gmail.com
 copyright_name: carakane
 description: > # this means to ignore newlines until "baseurl:"
-  Cara Kane, software developer
+  Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  carakane
 learn_profile: carakane
